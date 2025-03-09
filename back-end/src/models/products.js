@@ -11,7 +11,7 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.TEXT
     },
     price: {
-      type: Sequelize.NUMBER
+      type: Sequelize.DECIMAL(10, 2)
     },
     imageurl: {
       type: Sequelize.TEXT
